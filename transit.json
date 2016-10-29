@@ -1,0 +1,329 @@
+{
+    "stations": {
+        "? East Island Castle": {"pos": [4671, 8, -850]},
+        "? Persia Some Island": {"pos": [3700, 0, 2424]},
+        "Agora": {"pos": [-3900, 11, 200]},
+        "Alpoko": {"pos": [3700, 0, 1200]},
+        "Aquila Market": {"pos": [3900, 8, -919]},
+        "Aquila Port": {"pos": [3900, 11, -690]},
+        "Arrakis": {"pos": [4671, 0, -1600]},
+        "Bacchiatte": {"pos": [3890, 8, 0]},
+        "Hayek": {"pos": [777, 0, 2750]},
+        "Kaldarra": {"pos": [-300, 0, 1700]},
+        "Kazad Ankor": {"pos": [0, 0, -919]},
+        "Lothlorien": {"pos": [1600, 11, 600]},
+        "Mt. Athos": {"pos": [-3090, 0, 1115]},
+        "Mt. Augusta": {"pos": [2300, 0, 3090]},
+        "Nerd House": {"pos": [4000, 11, -300]},
+        "Oskia": {"pos": [400, 0, -1600]},
+        "Persepolis": {"pos": [3700, 0, 2900]},
+        "Polynesia": {"pos": [-3900, 11, -4000]},
+        "Rodos": {"pos": [4671, 8, -748]},
+        "Southpost": {"pos": [1512, 0, 1891]},
+        "Vogelburg": {"pos": [-3650, 0, 600]},
+        "Watertown": {"pos": [1438, 0, 1443]},
+        "Zer0": {"pos": [0, 0, 0]}
+    },
+    "edges": [
+        {
+            "from": "Bacchiatte",
+            "to": "Rodos",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [3890, 8, 0],
+                [4671, 8, 0],
+                [4671, 8, -748]
+            ]
+        },
+        {
+            "from": "Rodos",
+            "to": "? East Island Castle",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [4671, 8, -748],
+                [4671, 8, -850]
+            ]
+        },
+        {
+            "from": "? East Island Castle",
+            "to": "Arrakis",
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [4671, 8, -850],
+                [4671, 0, -1600]
+            ]
+        },
+        {
+            "from": "Rodos",
+            "to": "Aquila Market",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [4671, 8, -748],
+                [4140, 8, -748],
+                [3970, 8, -919],
+                [3900, 8, -919]
+            ]
+        },
+        {
+            "from": "Aquila Market",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [3900, 8, -919],
+                [3316, 8, -919]
+            ]
+        },
+        {
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [3316, 8, -919],
+                [2959, 8, -919]
+            ]
+        },
+        {
+            "from": "Aquila Market",
+            "to": "Aquila Port",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [3900, 11, -919],
+                [3900, 11, -690]
+            ]
+        },
+        {
+            "from": "Aquila Port",
+            "to": "Nerd House",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [3900, 11, -690],
+                [3900, 11, -500],
+                [4000, 11, -400],
+                [4000, 11, -300]
+            ]
+        },
+        {
+            "from": "Nerd House",
+            "to": "Bacchiatte",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [4000, 11, -300],
+                [4000, 11, -4]
+            ]
+        },
+        {
+            "from": "Bacchiatte",
+            "to": "Alpoko",
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [3890, 8, 0],
+                [3700, 0, 0],
+                [3700, 0, 1200]
+            ]
+        },
+        {
+            "from": "Alpoko",
+            "to": "? Persia Some Island",
+            "type": "tunnel",
+            "positions": [
+                [3700, 0, 1200],
+                [3700, 0, 2424]
+            ]
+        },
+        {
+            "from": "? Persia Some Island",
+            "to": "Persepolis",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [3700, 0, 2424],
+                [3700, 0, 2900]
+            ]
+        },
+        {
+            "from": "Persepolis",
+            "to": "Mt. Augusta",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [3700, 0, 2900],
+                [3700, 0, 3090],
+                [2300, 0, 3090]
+            ]
+        },
+
+
+
+
+        {
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [3700, 0, 0],
+                [3100, 0, 0]
+            ]
+        },
+
+
+
+        {
+            "from": "Persepolis",
+            "to": "Hayek",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [3700, 0, 2900],
+                [3550, 0, 2750],
+                [777, 0, 2750]
+            ]
+        },
+
+
+
+
+
+        {
+            "to": "Watertown",
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [1438, 0, 0],
+                [1438, 0, 1443]
+            ]
+        },
+        {
+            "from": "Watertown",
+            "to": "Southpost",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [1438, 0, 1443],
+                [1512, 0, 1443],
+                [1512, 0, 1891]
+            ]
+        },
+        {
+            "from": "Southpost",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [1512, 0, 1891],
+                [1512, 0, 2750]
+            ]
+        },
+
+
+
+
+        {
+            "from": "Polynesia",
+            "to": "Agora",
+            "type": "ice",
+            "positions": [
+                [-3900, 11, -4000],
+                [-3900, 11, 200]
+            ]
+        },
+        {
+            "from": "Agora",
+            "to": "Vogelburg",
+            "type": "ice",
+            "positions": [
+                [-3900, 11, 200],
+                [-3900, 11, 600],
+                [-3650, 11, 600]
+            ]
+        },
+        {
+            "from": "Vogelburg",
+            "type": "ice",
+            "tracks": 0,
+            "positions": [
+                [-3650, 11, 600],
+                [-2575, 11, 600]
+            ]
+        },
+
+
+        {
+            "to": "Lothlorien",
+            "type": "ice",
+            "tracks": 0,
+            "positions": [
+                [-1370, 11, 600],
+                [1600, 11, 600]
+            ]
+        },
+        {
+            "from": "Lothlorien",
+            "to": "Persepolis",
+            "type": "ice",
+            "tracks": 0,
+            "positions": [
+                [1600, 11, 600],
+                [1600, 11, 2700],
+                [3700, 11, 2700],
+                [3700, 11, 2900]
+            ]
+        },
+
+
+
+
+        {
+            "from": "Vogelburg",
+            "to": "Mt. Athos",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-3650, 0, 600],
+                [-3090, 0, 1115]
+            ]
+        },
+        {
+            "from": "Mt. Athos",
+            "to": "Zer0",
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [-3090, 0, 1115],
+                [-2575, 0, 600],
+                [-1370, 0, 600],
+                [-710, 0, 0],
+                [0, 0, 0]
+            ]
+        },
+
+
+
+
+        {
+            "from": "Kazad Ankor",
+            "to": "Zer0",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [0, 0, -919],
+                [0, 0, 0]
+            ]
+        },
+        {
+            "from": "Zer0",
+            "to": "Kaldarra",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [0, 0, 0],
+                [0, 0, 1700],
+                [-300, 0, 1700]
+            ]
+        }
+    ]
+}
