@@ -1,6 +1,5 @@
 {
     "stations": {
-        "? East Island Castle": {"pos": [4671, 8, -850]},
         "? Persia Some Island": {"pos": [3700, 0, 2424]},
         "Agora": {"pos": [-3900, 11, 200]},
         "Alpoko": {"pos": [3700, 0, 1200]},
@@ -9,6 +8,7 @@
         "Arrakis": {"pos": [4671, 0, -1600]},
         "Bacchiatte": {"pos": [3890, 8, 0]},
         "Hayek": {"pos": [777, 0, 2750]},
+        "Irithyll": {"pos": [-4160, 0, 1150]},
         "Kaldarra": {"pos": [-300, 0, 1700]},
         "Kaiserinreich": {"pos": [-3784, 12, -2305]},
         "Kazad Ankor": {"pos": [150, 0, -1070]},
@@ -20,6 +20,7 @@
         "Persepolis": {"pos": [3700, 0, 2900]},
         "Polynesia": {"pos": [-3900, 11, -4000]},
         "Rodos": {"pos": [4671, 8, -748]},
+        "Rodos Castle": {"pos": [4671, 8, -850]},
         "Southpost": {"pos": [1512, 0, 1891]},
         "Vogelburg": {"pos": [-3650, 0, 600]},
         "Watertown": {"pos": [1438, 0, 1443]},
@@ -39,7 +40,7 @@
         },
         {
             "from": "Rodos",
-            "to": "? East Island Castle",
+            "to": "Rodos Castle",
             "type": "tunnel",
             "tracks": 2,
             "positions": [
@@ -48,7 +49,7 @@
             ]
         },
         {
-            "from": "? East Island Castle",
+            "from": "Rodos Castle",
             "to": "Arrakis",
             "type": "tunnel",
             "tracks": 0,
@@ -277,6 +278,17 @@
 
 
 
+
+        {
+            "from": "Irithyll",
+            "to": "Mt. Athos",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-4160, 0, 1150],
+                [-3095, 0, 1115]
+            ]
+        },
 
         {
             "from": "Vogelburg",
