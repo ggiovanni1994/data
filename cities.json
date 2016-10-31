@@ -214,8 +214,8 @@
     },
     {
         "name": "Kazad Ankor",
-        "location": [40, -900],
-        "size": 70
+        "location": [100, -1000],
+        "size": 150
     },
     {
         "name": "Kenya",
