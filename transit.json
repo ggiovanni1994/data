@@ -369,6 +369,30 @@
                 [0, 0, 0]
             ]
         },
+        
+        {
+            "from": "Kazad Ankor",
+            "to": "Aquila",
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [150, 0, -850],
+                [160, 0, -850]
+            ]
+        },
+        
+        {
+            "from": "Zer0",
+            "to": "Kenya",
+            "type": "tunnel",
+            "tracks": 0,
+            "positions": [
+                [0, 0, 0],
+                [1000, 0, 0],
+                [1000, 0, -1000]
+            ]
+        }
+        
         {
             "from": "Zer0",
             "to": "Kaldarra",
