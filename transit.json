@@ -1,14 +1,15 @@
 {
     "stations": {
         "? Persia Some Island": {"pos": [3700, 0, 2424]},
-        "Agora": {"pos": [-3900, 11, 200]},
+        "Agora": {"pos": [-4162, 11, 250]},
+        "Agora Ice": {"pos": [-3900, 11, 200]},
         "Alpoko": {"pos": [3700, 0, 1200]},
         "Aquila Market": {"pos": [3900, 8, -919]},
         "Aquila Port": {"pos": [3900, 11, -690]},
         "Arrakis": {"pos": [4671, 0, -1600]},
         "Bacchiatte": {"pos": [3890, 8, 0]},
         "Hayek": {"pos": [777, 0, 2750]},
-        "Irithyll": {"pos": [-4160, 0, 1150]},
+        "Irithyll": {"pos": [-4162, 0, 1125]},
         "Kaldarra": {"pos": [-300, 0, 1700]},
         "Kaiserinreich": {"pos": [-3784, 12, -2305]},
         "Kazad Ankor": {"pos": [150, 0, -1070]},
@@ -285,11 +286,25 @@
             "type": "tunnel",
             "tracks": 1,
             "positions": [
-                [-4160, 0, 1150],
+                [-4160, 0, 1125],
+                [-3105, 0, 1125],
                 [-3095, 0, 1115]
             ]
         },
 
+        
+        {
+            "from": "Irithyll",
+            "to": "Agora",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-4162, 0, 1125],
+                [-4162, 0, 250]
+            ]
+        },
+        
+        
         {
             "from": "Vogelburg",
             "to": "Mt. Athos",
