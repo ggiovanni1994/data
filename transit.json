@@ -8,6 +8,7 @@
         "Aquila Port": {"pos": [3919, 11, -690]},
         "Arrakis": {"pos": [4671, 0, -1600]},
         "Bacchiatte": {"pos": [3890, 8, 0]},
+        "Camp Locktrap": {"pos": [-846, 14, -2482]},
         "Commercium": {"pos": [2069, 88, -2292]},
         "Dargysejamistan": {"pos": [4100, 11, -1182]},
         "Fengzhi": {"pos": [1580, 95, -2732]},
@@ -288,6 +289,31 @@
             ]
         },
 
+        {
+            "from": "Vogelburg",
+            "to": "Exchange",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-3784, 14, -2305],
+                [-3784, 14, -2329],
+                [-3137, 14, -2329]
+            ]
+        },
+        
+        {
+            "from": "Camp Locktrap",
+            "to": "Exchange",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-846, 14, -2482],
+                [-1290, 14, -2482],
+                [-1444, 14, -2329],
+                [-3137, 14, -2329]
+            ]
+        },
+        
 
         {
             "to": "Lothlorien",
