@@ -15,11 +15,6 @@
         "size": null
     },
     {
-        "name": "? Island (Xinteng)",
-        "location": [1450, -3050],
-        "size": null
-    },
-    {
         "name": "? Kaldarra South",
         "location": [-300, 2400],
         "size": null
@@ -30,17 +25,17 @@
         "size": null
     },
     {
-        "name": "? unclaimed 1",
+        "name": "? MooMoo Hills",
         "location": [-1600, -850],
         "size": null
     },
     {
-        "name": "? unclaimed farms+house",
+        "name": "? Irithyll north farms",
         "location": [-4900, 0],
         "size": null
     },
     {
-        "name": "? unclaimed 3",
+        "name": "? Empire",
         "location": [600, -2250],
         "size": null
     },
@@ -62,29 +57,13 @@
 
 
 
-    {
-        "name": "? Highrock N",
-        "location": [400, 2190],
-        "size": 40
-    },
-    {
-        "name": "? Highrock S",
-        "location": [240, 2440],
-        "size": 40
-    },
-
-    {
-        "name": "? Good Springs",
-        "location": [420, 1940],
-        "size": 60
-    },
 
 
 
 
     {
-        "name": "Abrya",
-        "location": [1650, -750],
+        "name": "Ebenen",
+        "location": [1700, -710],
         "size": null
     },
     {
@@ -94,7 +73,7 @@
     },
     {
         "name": "Agora",
-        "location": [-3900, 200],
+        "location": [-4150, 290],
         "size": null
     },
     {
@@ -134,13 +113,13 @@
     },
     {
         "name": "Beneshire",
-        "location": [2230, -1650],
-        "size": 40
+        "location": [2260, -1650],
+        "size": 30
     },
     {
         "name": "Bhuldir",
-        "location": [50, 450],
-        "size": 30
+        "location": [60, 440],
+        "size": 40
     },
     {
         "name": "Brushfire",
@@ -159,8 +138,8 @@
     },
     {
         "name": "Commercium",
-        "location": [2222, -2141],
-        "size": null
+        "location": [2050, -2340],
+        "size": 60
     },
     {
         "name": "Dargysejamistan",
@@ -173,14 +152,19 @@
         "size": null
     },
     {
+        "name": "Fengzhi",
+        "location": [1550, -2700],
+        "size": 50
+    },
+    {
         "name": "Fort Grack Fields",
         "location": [-3250, 1900],
         "size": 40
     },
     {
         "name": "Greenville",
-        "location": [2480, -2000],
-        "size": null
+        "location": [2485, -1985],
+        "size": 50
     },
     {
         "name": "Hayek",
@@ -191,6 +175,11 @@
         "name": "Hearthfire",
         "location": [1200, -1450],
         "size": 60
+    },
+    {
+        "name": "Highrock",
+        "location": [410, 2200],
+        "size": 50
     },
     {
         "name": "Irithyll",
@@ -204,7 +193,12 @@
     },
     {
         "name": "Kaldarra",
-        "location": [-300, 1700],
+        "location": [-250, 1850],
+        "size": null
+    },
+    {
+        "name": "Karjala",
+        "location": [2700, -777],
         "size": null
     },
     {
@@ -253,6 +247,11 @@
         "size": 130
     },
     {
+        "name": "Ovidian",
+        "location": [-250, 1200],
+        "size": 100
+    },
+    {
         "name": "Pending",
         "location": [890, -3880],
         "size": 50
@@ -268,14 +267,29 @@
         "size": 100
     },
     {
-        "name": "Qiyuan (Xinteng)",
+        "name": "Port Douglas",
+        "location": [2800, -4200],
+        "size": null
+    },
+    {
+        "name": "Qiyuan",
         "location": [1830, -2900],
         "size": 100
     },
     {
         "name": "Quantum",
         "location": [-4950, 3760],
-        "size": 50
+        "size": null
+    },
+    {
+        "name": "Raffa",
+        "location": [465, 2711],
+        "size": 40
+    },
+    {
+        "name": "Ranier",
+        "location": [2421, -3722],
+        "size": null
     },
     {
         "name": "Rodos",
@@ -323,6 +337,11 @@
         "size": null
     },
     {
+        "name": "Wake Island",
+        "location": [1460, -3040],
+        "size": 40
+    },
+    {
         "name": "Watertown",
         "location": [1438, 1443],
         "size": null
@@ -331,6 +350,11 @@
         "name": "WaWa",
         "location": [3320, -130],
         "size": 50
+    },
+    {
+        "name": "Wyvenhurst",
+        "location": [350, 1000],
+        "size": null
     },
     {
         "name": "Yoahtl",
