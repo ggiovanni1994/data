@@ -1,10 +1,9 @@
 {
     "stations": {
+        "Aerie": {"pos": [3320, 0, -920]},
         "Agora": {"pos": [-4162, 11, 250]},
         "Agora Ice": {"pos": [-3762, 11, 200]},
-        "Alpoko": {"pos": [3700, 0, 1200]},
         "Aquila Market": {"pos": [3900, 8, -919]},
-        "Aquila Port": {"pos": [3919, 11, -690]},
         "Arrakis": {"pos": [4671, 0, -1600]},
         "Bacchiatte": {"pos": [3890, 8, 0]},
         "Camp Locktrap": {"pos": [-846, 14, -2482]},
@@ -21,13 +20,10 @@
         "Lothlorien": {"pos": [1600, 11, 612]},
         "Mt. Athos": {"pos": [-3095, 0, 1115]},
         "Mt. Augusta": {"pos": [2300, 7, 3098]},
-        "Nerd House": {"pos": [4000, 11, -300]},
         "Oskia": {"pos": [400, 0, -1600]},
         "Persepolis": {"pos": [3668, 0, 2984]},
         "Polynesia": {"pos": [-3762, 11, -3925]},
         "Rodos": {"pos": [4671, 8, -748]},
-        "Rodos Castle": {"pos": [4671, 8, -850]},
-        "Southpost": {"pos": [1512, 0, 1891]},
         "Vogelburg": {"pos": [-3650, 0, 600]},
         "Watertown": {"pos": [1438, 0, 1443]},
         "Qiyuan": {"pos": [1830, 114, -2863]},
@@ -47,21 +43,11 @@
         },
         {
             "from": "Rodos",
-            "to": "Rodos Castle",
+            "to": "Arrakis",
             "type": "tunnel",
             "tracks": 2,
             "positions": [
                 [4671, 8, -748],
-                [4671, 8, -850]
-            ]
-        },
-        {
-            "from": "Rodos Castle",
-            "to": "Arrakis",
-            "type": "tunnel",
-            "tracks": 0,
-            "positions": [
-                [4671, 8, -850],
                 [4671, 0, -1600]
             ]
         },
@@ -124,57 +110,29 @@
         },
         {
             "from": "Aquila Market",
-            "to": "Aquila Port",
+            "to": "Bacchiatte",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
                 [3900, 11, -919],
                 [3900, 11, -800],
                 [3919, 11, -800],
-                [3919, 11, -690]
-            ]
-        },
-        {
-            "from": "Aquila Port",
-            "to": "Nerd House",
-            "type": "tunnel",
-            "tracks": 1,
-            "positions": [
-                [3919, 11, -690],
                 [3919, 11, -680],
                 [3900, 7, -680],
                 [3900, 7, -500],
                 [4000, 7, -400],
-                [4000, 11, -300]
-            ]
-        },
-        {
-            "from": "Nerd House",
-            "to": "Bacchiatte",
-            "type": "tunnel",
-            "tracks": 1,
-            "positions": [
                 [4000, 11, -300],
                 [4000, 11, -4]
             ]
         },
         {
             "from": "Bacchiatte",
-            "to": "Alpoko",
             "type": "tunnel",
             "tracks": 0,
             "positions": [
                 [3890, 8, 0],
-                [3700, 0, 0],
-                [3700, 0, 1200]
-            ]
-        },
-        {
-            "from": "Alpoko",
-            "type": "tunnel",
-            "positions": [
-                [3700, 7, 1200],
-                [3700, 7, 2347]
+                [3700, 8, 0],
+                [3700, 8, 2347]
             ]
         },
         {
@@ -183,7 +141,6 @@
             "tracks": 2,
             "positions": [
                 [3700, 7, 2347],
-                [3700, 7, 2982],
                 [3700, 7, 2985]
             ]
         },
@@ -301,22 +258,13 @@
 
         {
             "from": "Watertown",
-            "to": "Southpost",
-            "type": "tunnel",
+            "type": "ground",
             "tracks": 1,
+            "comment": "y-coords 1+2 unsure",
             "positions": [
-                [1438, 0, 1443],
-                [1512, 0, 1443],
-                [1512, 0, 1891]
-            ]
-        },
-        {
-            "from": "Southpost",
-            "type": "tunnel",
-            "tracks": 1,
-            "positions": [
-                [1512, 0, 1891],
-                [1512, 0, 2810]
+                [1438, 111, 1443],
+                [1512, 111, 1443],
+                [1512, 105, 2810]
             ]
         },
 
