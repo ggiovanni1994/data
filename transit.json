@@ -1,10 +1,11 @@
 {
     "stations": {
         "Aerie": {"pos": [3320, 0, -920]},
+        "Agni Ignis": {"pos": [-1479, 0, -1999]},
         "Agora": {"pos": [-4162, 11, 250]},
         "Agora Ice": {"pos": [-3762, 11, 200]},
         "Aquila Market": {"pos": [3900, 8, -919]},
-        "Arrakis": {"pos": [4671, 0, -1600]},
+        "Arrakis": {"pos": [4671, 0, -1500]},
         "Bacchiatte": {"pos": [3890, 8, 0]},
         "Camp Locktrap": {"pos": [-846, 14, -2482]},
         "Commercium": {"pos": [2069, 88, -2292]},
@@ -49,7 +50,7 @@
             "tracks": 2,
             "positions": [
                 [4671, 8, -748],
-                [4671, 0, -1600]
+                [4671, 0, -1500]
             ]
         },
         {
@@ -418,6 +419,21 @@
 
 
         {
+            "from": "Agni Ignis",
+            "to": "Kazad Ankor",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-1479, 0, -1999],
+                [-931, 0, -1999],
+                [-931, 0, -1045],
+                [-371, 0, -1045],
+                [-371, 0, -790],
+                [-50, 0, -790]
+            ]
+        },
+
+        {
             "from": "Kazad Ankor",
             "to": "Zer0",
             "type": "tunnel",
@@ -439,7 +455,7 @@
                 [500, 0, -850]
             ]
         },
-        
+
         {
             "from": "Kazad Ankor",
             "type": "tunnel",
