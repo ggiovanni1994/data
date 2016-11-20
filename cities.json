@@ -62,18 +62,18 @@
 
 
     {
-        "name": "Ebenen",
-        "location": [1700, -710],
-        "size": null
+        "name": "Abrya",
+        "location": [1760, -545],
+        "size": 40
     },
     {
         "name": "Agni Ignis",
         "location": [-1500, -1950],
-        "size": 100
+        "size": 150
     },
     {
         "name": "Agora",
-        "location": [-4150, 290],
+        "location": [-4140, 210],
         "size": null
     },
     {
@@ -83,8 +83,8 @@
     },
     {
         "name": "Aquila",
-        "location": [3900, -850],
-        "size": 250
+        "location": [3840, -930],
+        "size": 150
     },
     {
         "name": "Arbo",
@@ -92,19 +92,14 @@
         "size": 50
     },
     {
-        "name": "Arrakis",
-        "location": [4671, -1600],
-        "size": null
-    },
-    {
         "name": "Aruman",
-        "location": [-2100, -4300],
+        "location": [-2115, -4310],
         "size": 50
     },
     {
         "name": "Bacchiatte",
         "location": [3950, 20],
-        "size": 100
+        "size": 70
     },
     {
         "name": "Balkania",
@@ -133,23 +128,38 @@
     },
     {
         "name": "Clearwater",
-        "location": [-2133, 2833],
+        "location": [-2360, 2860],
         "size": 50
     },
     {
         "name": "Commercium",
-        "location": [2050, -2340],
+        "location": [2050, -2380],
         "size": 60
     },
     {
         "name": "Dargysejamistan",
-        "location": [4150, -1180],
+        "location": [4115, -1175],
+        "size": 50
+    },
+    {
+        "name": "Empire",
+        "location": [804, -2685],
         "size": null
+    },
+    {
+        "name": "Esme",
+        "location": [-2910, -1000],
+        "size": 50
     },
     {
         "name": "Estra",
         "location": [500, 1100],
         "size": null
+    },
+    {
+        "name": "Faroe",
+        "location": [-3460, -1230],
+        "size": 50
     },
     {
         "name": "Fengzhi",
@@ -158,13 +168,13 @@
     },
     {
         "name": "Fort Grack Fields",
-        "location": [-3250, 1900],
+        "location": [-3245, 1905],
         "size": 40
     },
     {
         "name": "Greenville",
-        "location": [2485, -1985],
-        "size": 50
+        "location": [2485, -2000],
+        "size": 70
     },
     {
         "name": "Hayek",
@@ -183,12 +193,12 @@
     },
     {
         "name": "Irithyll",
-        "location": [-4150, 1150],
+        "location": [-4150, 1120],
         "size": 90
     },
     {
         "name": "Kaiserinreich",
-        "location": [-3791, -2319],
+        "location": [-3880, -2260],
         "size": 100
     },
     {
@@ -214,7 +224,7 @@
     {
         "name": "Kenya",
         "location": [2080, -1270],
-        "size": 80
+        "size": 40
     },
     {
         "name": "Lothlorien",
@@ -233,13 +243,13 @@
     },
     {
         "name": "Mt. Athos",
-        "location": [-3250, 1115],
+        "location": [-3270, 1100],
         "size": 200
     },
     {
         "name": "Mt. Augusta",
-        "location": [2300, 3030],
-        "size": 150
+        "location": [2260, 3060],
+        "size": 250
     },
     {
         "name": "Oskia",
@@ -258,7 +268,7 @@
     },
     {
         "name": "Persepolis",
-        "location": [3700, 2920],
+        "location": [3700, 2940],
         "size": 150
     },
     {
@@ -272,9 +282,19 @@
         "size": null
     },
     {
+        "name": "Primm",
+        "location": [-3700, -1540],
+        "size": 50
+    },
+    {
+        "name": "Pueblo",
+        "location": [-2680, -300],
+        "size": null
+    },
+    {
         "name": "Qiyuan",
-        "location": [1830, -2900],
-        "size": 100
+        "location": [1780, -2900],
+        "size": 80
     },
     {
         "name": "Quantum",
@@ -294,7 +314,7 @@
     {
         "name": "Rodos",
         "location": [4664, -846],
-        "size": 40
+        "size": 30
     },
     {
         "name": "Sork",
@@ -302,9 +322,9 @@
         "size": null
     },
     {
-        "name": "Southpost",
-        "location": [1512, 1891],
-        "size": null
+        "name": "Spook",
+        "location": [2160, -720],
+        "size": 40
     },
     {
         "name": "/tg/ Town",
@@ -328,8 +348,8 @@
     },
     {
         "name": "Vogelburg",
-        "location": [-3540, 600],
-        "size": 130
+        "location": [-3520, 600],
+        "size": 150
     },
     {
         "name": "Vogelburg North Colony",
@@ -352,6 +372,11 @@
         "size": 50
     },
     {
+        "name": "White Citadel",
+        "location": [3220, 3420],
+        "size": null
+    },
+    {
         "name": "Wyvenhurst",
         "location": [350, 1000],
         "size": null
@@ -364,6 +389,6 @@
     {
         "name": "Zer0",
         "location": [0, 0],
-        "size": null
+        "size": 40
     }
 ]
