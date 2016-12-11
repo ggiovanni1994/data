@@ -129,38 +129,13 @@
         },
 
         {
-            "type": "tunnel",
-            "tracks": 0,
-            "positions": [
-                [3700, 0, 0],
-                [3100, 0, 0]
-            ]
-        },
-
-        {
             "from": "Bacchiatte",
+            "to": "Persepolis",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
                 [3890, 8, 0],
                 [3700, 8, 0],
-                [3700, 8, 400]
-            ]
-        },
-        {
-            "type": "tunnel",
-            "tracks": 0,
-            "positions": [
-                [3700, 8, 400],
-                [3700, 8, 2347]
-            ]
-        },
-        {
-            "to": "Persepolis",
-            "type": "tunnel",
-            "tracks": 2,
-            "positions": [
-                [3700, 7, 2347],
                 [3700, 7, 2985]
             ]
         },
