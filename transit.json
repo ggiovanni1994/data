@@ -1,6 +1,5 @@
 {
     "stations": {
-        "Aerie": {"pos": [3320, 0, -920]},
         "Agni Ignis": {"pos": [-1479, 0, -1999]},
         "Agora": {"pos": [-4162, 11, 250]},
         "Agora Ice": {"pos": [-3762, 11, 200]},
@@ -21,8 +20,7 @@
         "Lothlorien": {"pos": [1600, 11, 612]},
         "Mt. Athos": {"pos": [-3095, 0, 1115]},
         "Mt. Augusta": {"pos": [2300, 7, 3098]},
-        "New Empire": {"pos": [804, 7, -2685]},
-        "Oskia": {"pos": [400, 0, -1600]},
+        "Persia End Portal": {"pos": [4175, 19, 1748]},
         "Persepolis": {"pos": [3668, 0, 2984]},
         "Polynesia": {"pos": [-3762, 11, -3925]},
         "Rodos": {"pos": [4671, 8, -748]},
@@ -180,7 +178,7 @@
 
         {
             "from": "Persepolis",
-            "to": "Persian End Portal",
+            "to": "Persia End Portal",
             "type": "tunnel",
             "tracks": 2,
             "positions": [
@@ -279,7 +277,7 @@
 
         {
             "from": "Kaiserinreich",
-            "to": "Agora",
+            "to": "Agora Ice",
             "type": "ice",
             "positions": [
                 [-3784, 11, -2305],
@@ -289,7 +287,7 @@
         },
 
         {
-            "from": "Agora",
+            "from": "Agora Ice",
             "to": "Vogelburg",
             "type": "ice",
             "positions": [
@@ -475,24 +473,6 @@
         },
 
 
-
-        {
-            "type": "ground",
-            "tracks": 0,
-            "positions": [
-                [2508, 99, -1704],
-                [2508, 99, -1661],
-                [2503, 99, -1661],
-                [2503, 99, -1596],
-                [2555, 111, -1597],
-                [2555, 111, -1547],
-                [2663, 132, -1547],
-                [2663, 124, -1494]
-            ]
-        },
-
-
-
         {
             "from": "Aquila",
             "to": "Greenville",
@@ -502,20 +482,6 @@
                 [3900, 12, -919],
                 [3900, 12, -930],
                 [2739, 20, -2091],
-                [2499, 95, -2091]
-            ]
-        },
-
-
-
-        {
-            "to": "Greenville",
-            "type": "tunnel",
-            "tracks": 2,
-            "positions": [
-                [2739, 139, -2007],
-                [2674, 85, -2007],
-                [2590, 85, -2091],
                 [2499, 95, -2091]
             ]
         },
