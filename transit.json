@@ -2,7 +2,6 @@
     "stations": {
         "Agni Ignis": {"pos": [-1479, 0, -1999]},
         "Agora": {"pos": [-4162, 11, 250]},
-        "Agora Ice": {"pos": [-3762, 11, 200]},
         "Aquila": {"pos": [3900, 8, -919]},
         "Arrakis": {"pos": [4671, 0, -1500]},
         "Bacchiatte": {"pos": [3890, 8, 0]},
@@ -11,22 +10,22 @@
         "Dargysejamistan": {"pos": [4100, 11, -1182]},
         "Exchange": {"pos": [-3137, 14, -2329]},
         "Fengzhi": {"pos": [1580, 95, -2732]},
+        "Greenkitten Isles": {"pos": [3669, 19, 4172]},
         "Greenville": {"pos": [2499, 95, -2091]},
-        "Hayek": {"pos": [839, 105, 2810]},
+        "Hayek": {"pos": [834, 105, 2810]},
         "Irithyll": {"pos": [-4162, 0, 1125]},
         "Kaldarra": {"pos": [-200, 12, 1890]},
-        "Kaiserinreich": {"pos": [-3784, 12, -2305]},
         "Kazad Ankor": {"pos": [150, 0, -1070]},
-        "Lothlorien": {"pos": [1600, 11, 612]},
         "Mt. Athos": {"pos": [-3095, 0, 1115]},
-        "Mt. Augusta": {"pos": [2300, 7, 3098]},
+        "Mt. Augusta": {"pos": [2549, 8, 3073]},
         "Persia End Portal": {"pos": [4175, 19, 1748]},
         "Persepolis": {"pos": [3668, 0, 2984]},
-        "Polynesia": {"pos": [-3762, 11, -3925]},
+        "Ranier": {"pos": [2361, 96, -3686]},
         "Rodos": {"pos": [4671, 8, -748]},
         "Vogelburg": {"pos": [-3500, 0, 600]},
         "Watertown": {"pos": [1438, 0, 1443]},
         "Qiyuan": {"pos": [1830, 114, -2863]},
+        "White Citadel": {"pos": [3341, 19, 3420]},
         "Zer0": {"pos": [0, 0, 0]}
     },
     "edges": [
@@ -134,7 +133,9 @@
             "positions": [
                 [3890, 8, 0],
                 [3700, 8, 0],
-                [3700, 7, 2985]
+                [3700, 7, 2903],
+                [3648, 7, 2956],
+                [3648, 19, 2989]
             ]
         },
         {
@@ -143,27 +144,30 @@
             "type": "tunnel",
             "tracks": 1,
             "positions": [
-                [3700, 0, 2985],
-                [3700, 0, 3098],
-                [2300, 0, 3098]
+                [3648, 19, 2989],
+                [3648, 7, 3022],
+                [3576, 7, 3094],
+                [3576, 7, 3098],
+                [2549, 0, 3098]
             ]
         },
         {
             "from": "Mt. Augusta",
-            "to": "Hayek",
+            "to": "Zer0",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
-                [2300, 7, 3098],
+                [2549, 7, 3098],
                 [1164, 7, 3098],
                 [882, 7, 2816],
-                [839, 7, 2816]
+                [0, 7, 2815],
+                [0, 7, 10]
             ]
         },
         {
             "from": "Hayek",
             "to": "Persepolis",
-            "type": "tunnel",
+            "type": "unused",
             "tracks": 1,
             "comment": "coords #2+#3 are Cloud Lake Jct, MtA entry point",
             "positions": [
@@ -172,76 +176,127 @@
                 [2103, 105, 2810],
                 [2969, 85, 2810],
                 [2969, 0, 2991],
-                [3705, 8, 2991]
+                [3575, 12, 2991]
             ]
         },
+
 
         {
             "from": "Persepolis",
-            "to": "Persia End Portal",
-            "type": "tunnel",
-            "tracks": 2,
+            "type": "unused",
+            "tracks": 1,
             "positions": [
-                [3669, 19, 2979],
-                [3669, 19, 2432],
-                [4175, 19, 1926],
-                [4175, 19, 1748]
+                [3710, 19, 2983],
+                [4684, 19, 2983]
             ]
         },
 
+
+        {
+            "from": "Persepolis",
+            "to": "Hayek",
+            "type": "tunnel",
+            "tracks": 1,
+            "comment": "unknown route between x=3560 and x=2319; probably diagonal NW then straight E",
+            "positions": [
+                [3642, 19, 2989],
+                [3642, 19, 2963],
+                [3618, 19, 2939],
+                [3560, 19, 2939],
+                [3560, 19, 2881],
+
+                [3489, 19, 2810],
+
+                [2319, 19, 2810],
+                [928, 19, 2810],
+                [834, 105, 2810]
+            ]
+        },
         {
             "from": "Persepolis",
             "type": "tunnel",
             "tracks": 2,
             "comment": "unfinished, to polynesia",
             "positions": [
-                [3665, 19, 2979],
+                [3654, 19, 2989],
+                [3654, 19, 2962],
+                [3665, 19, 2951],
                 [3665, 12, 2419],
                 [3557, 12, 2311]
             ]
         },
-
-
-
-
+        {
+            "from": "Persepolis",
+            "to": "Persia End Portal",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [3660, 19, 2989],
+                [3660, 19, 2964],
+                [3669, 19, 2955],
+                [3669, 19, 2432],
+                [4175, 19, 1926],
+                [4175, 19, 1748]
+            ]
+        },
+        {
+            "from": "Persepolis",
+            "to": "Nether Biome",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [3688, 19, 2989],
+                [3688, 10, 1997],
+                [3681, 10, 1990]
+            ]
+        },
+        {
+            "from": "Persepolis",
+            "to": "White Citadel",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [3688, 19, 2989],
+                [3688, 28, 3017],
+                [3630, 28, 3017],
+                [3630, 19, 3420],
+                [3341, 19, 3420]
+            ]
+        },
         {
             "from": "Persepolis",
             "type": "tunnel",
             "tracks": 1,
+            "comment": "forgot what the destination sign said",
             "positions": [
-                [3664, 19, 2983],
-                [3630, 19, 2983],
-                [3630, 19, 3167]
+                [3700, 19, 2989],
+                [3700, 19, 2975],
+                [3706, 19, 2975],
+                [3706, 12, 2986],
+                [4169, 8, 2986]
             ]
         },
-
         {
             "from": "Persepolis",
             "type": "tunnel",
             "tracks": 1,
+            "comment": "forgot what the destination sign said",
             "positions": [
-                [3676, 19, 2983],
-                [4684, 19, 2983]
+                [3700, 19, 2989],
+                [3700, 19, 3008],
+                [4157, 19, 3008]
             ]
         },
-
         {
             "from": "Persepolis",
+            "to": "Greenkitten Isles",
             "type": "tunnel",
-            "tracks": 0,
+            "tracks": 1,
             "positions": [
-                [3672, 19, 2989],
-                [3916, 19, 3233]
-            ]
-        },
-
-        {
-            "from": "Persepolis",
-            "type": "tunnel",
-            "tracks": 0,
-            "positions": [
-                [3669, 19, 2994],
-                [3669, 19, 3167]
+                [3660, 19, 2989],
+                [3660, 19, 3020],
+                [3669, 19, 3028],
+                [3669, 19, 4172]
             ]
         },
 
@@ -263,61 +318,6 @@
 
 
 
-
-        {
-            "from": "Polynesia",
-            "to": "Kaiserinreich",
-            "type": "ice",
-            "positions": [
-                [-3762, 11, -3925],
-                [-3762, 11, -2304],
-                [-3784, 11, -2305]
-            ]
-        },
-
-        {
-            "from": "Kaiserinreich",
-            "to": "Agora Ice",
-            "type": "ice",
-            "positions": [
-                [-3784, 11, -2305],
-                [-3762, 11, -2304],
-                [-3762, 11, 200]
-            ]
-        },
-
-        {
-            "from": "Agora Ice",
-            "to": "Vogelburg",
-            "type": "ice",
-            "positions": [
-                [-3762, 11, 200],
-                [-3762, 11, 612],
-                [-3650, 11, 612]
-            ]
-        },
-        {
-            "from": "Vogelburg",
-            "type": "ice",
-            "tracks": 0,
-            "positions": [
-                [-3650, 11, 612],
-                [-1370, 11, 612]
-            ]
-        },
-
-        {
-            "from": "Vogelburg",
-            "to": "Exchange",
-            "type": "tunnel",
-            "tracks": 1,
-            "positions": [
-                [-3784, 14, -2305],
-                [-3784, 14, -2329],
-                [-3137, 14, -2329]
-            ]
-        },
-
         {
             "from": "Camp Locktrap",
             "to": "Exchange",
@@ -330,29 +330,6 @@
                 [-3137, 14, -2329]
             ]
         },
-
-
-        {
-            "to": "Lothlorien",
-            "type": "ice",
-            "tracks": 0,
-            "positions": [
-                [-1370, 11, 612],
-                [1600, 11, 612]
-            ]
-        },
-
-        {
-            "from": "Persepolis",
-            "type": "ice",
-            "tracks": 0,
-            "positions": [
-                [3650, 8, 2742],
-                [3650, 8, 1987],
-                [1283, 8, 1987]
-            ]
-        },
-
 
 
 
@@ -451,14 +428,12 @@
         },
 
         {
-            "from": "Zer0",
-            "to": "Kaldarra",
-            "type": "tunnel",
+            "from": "Kaldarra",
+            "type": "unused",
             "tracks": 1,
             "positions": [
-                [0, 12, 0],
-                [0, 12, 1890],
-                [-200, 12, 1890]
+                [-200, 12, 1890],
+                [0, 12, 1890]
             ]
         },
 
@@ -554,6 +529,48 @@
                 [1831, 20, -2936],
                 [1831, 7, -2923],
                 [1831, 9, -2890]
+            ]
+        },
+
+
+        {
+            "from": "Hayek",
+            "to": "Raffa",
+            "type": "planned",
+            "tracks": 1,
+            "positions": [
+                [773, 81, 2876],
+                [500, 80, 2876]
+            ]
+        },
+
+
+        {
+            "from": "Mt. Augusta",
+            "type": "unused",
+            "tracks": 1,
+            "positions": [
+                [2549, 7, 3057],
+                [2510, 7, 3057],
+                [2458, 7, 3005],
+                [2458, 7, 2972],
+                [2158, 7, 2670]
+            ]
+        },
+
+
+        {
+            "from": "Mt. Augusta",
+            "to": "Greenville",
+            "type": "planned",
+            "tracks": 1,
+            "positions": [
+                [2549, 7, 3049],
+                [2510, 7, 3049],
+                [2462, 7, 3001],
+                [2462, 7, 2968],
+                [2184, 7, 2690],
+                [2184, 7, 2562]
             ]
         }
     ]
