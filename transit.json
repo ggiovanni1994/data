@@ -16,7 +16,10 @@
         "Greenville": {"pos": [2499, 95, -2091]},
         "Goodsprings": {"pos": [419, 7, 1958]},
         "Goodsprings Desertown": {"pos": [-5, 108, 2589]},
+        "Goodsprings Fives Rail Station": {"pos": [350, 78, 1700]},
+        "Goodsprings Fives Exchange": {"pos": [269, 8, 1704]},
         "Hayek": {"pos": [834, 105, 2810]},
+        "Highrock": {"pos": [374, 8, 2145]},
         "Irithyll": {"pos": [-4162, 0, 1125]},
         "Kaldarra": {"pos": [-200, 12, 1890]},
         "Kaiderin": {"pos": [-3776, 12, -2309]},
@@ -36,6 +39,7 @@
         "Watertown": {"pos": [1438, 0, 1443]},
         "Qiyuan": {"pos": [1830, 114, -2863]},
         "White Citadel": {"pos": [3341, 19, 3420]},
+        "Wyvernhurst": {"pos": [284, 7, 909]},
         "Zer0": {"pos": [0, 0, 0]}
     },
     "edges": [
@@ -137,7 +141,7 @@
 
         {
             "from": "Bacchiatte",
-            "to": "Persepolis",
+            "to": "Barcelonyaa",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
@@ -149,7 +153,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "to": "Mt. Augusta",
             "type": "tunnel",
             "tracks": 1,
@@ -188,7 +192,7 @@
         },
         {
             "from": "Hayek",
-            "to": "Persepolis",
+            "to": "Barcelonyaa",
             "type": "unused",
             "tracks": 1,
             "comment": "coords #2+#3 are Cloud Lake Jct, MtA entry point",
@@ -204,7 +208,7 @@
 
 
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "type": "unused",
             "tracks": 1,
             "positions": [
@@ -215,7 +219,7 @@
 
 
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "to": "Hayek",
             "type": "tunnel",
             "tracks": 1,
@@ -235,7 +239,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "type": "tunnel",
             "tracks": 2,
             "comment": "unfinished, to polynesia",
@@ -248,7 +252,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "to": "Persia End Portal",
             "type": "tunnel",
             "tracks": 2,
@@ -262,7 +266,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "to": "Nether Biome",
             "type": "tunnel",
             "tracks": 1,
@@ -273,7 +277,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "to": "White Citadel",
             "type": "tunnel",
             "tracks": 1,
@@ -286,7 +290,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "type": "tunnel",
             "tracks": 1,
             "comment": "forgot what the destination sign said",
@@ -299,7 +303,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "type": "tunnel",
             "tracks": 1,
             "comment": "forgot what the destination sign said",
@@ -310,7 +314,7 @@
             ]
         },
         {
-            "from": "Persepolis",
+            "from": "Barcelonyaa",
             "to": "Greenkitten Isles",
             "type": "tunnel",
             "tracks": 1,
@@ -613,6 +617,55 @@
         },
 
         {
+            "from": "Goodsprings Fives Rail Station",
+            "to": "Goodsprings Fives Exchange",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [345, 78, 1699],
+                [275, 78, 1699],
+                [210, 13, 1699],
+                [206, 13, 1699],
+                [206, 13, 1704],
+                [211, 13, 1704],
+                [216, 8, 1704],
+                [263, 8, 1704]
+            ]
+        },
+
+        {
+            "from": "Wyvernhurst",
+            "to": "Goodsprings Fives Exchange",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [269, 8, 931],
+                [269, 8, 1703],
+                [269, 9, 1704],
+                [269, 9, 1705]
+            ]
+        },
+
+        {
+            "from": "Goodsprings Fives Exchange",
+            "to": "Highrock",
+            "type": "tunnel",
+            "tracks": 2,
+            "positions": [
+                [269, 9, 1705],
+                [269, 9, 1706],
+                [269, 8, 1707],
+                [269, 8, 1950],
+                [269, 14, 1956],
+                [269, 14, 1959],
+                [269, 8, 1965],
+                [269, 8, 2044],
+                [370, 8, 2145],
+                [373, 8, 2145]
+            ]
+        },
+
+        {
             "from": "Goodsprings Desertown",
             "to": "Goodsprings",
             "type": "tunnel",
@@ -643,7 +696,7 @@
             "tracks": 1,
             "positions": [
                 [419, 7, 1958],
-                [499, 7, 2428],
+                [499, 7, 1958],
                 [499, 7, 2428],
                 [1165, 7, 3092],
                 [1926, 7, 3092],
