@@ -1,5 +1,6 @@
 {
     "stations": {
+        "Abrya": {"pos": [1717, 11, -836]},
         "Agora": {"pos": [-4162, 11, 250]},
         "Aquila": {"pos": [3900, 8, -919]},
         "Arrakis": {"pos": [4671, 0, -1500]},
@@ -21,29 +22,32 @@
         "Goodsprings Fives Exchange": {"pos": [269, 8, 1704]},
         "Hayek": {"pos": [834, 105, 2810]},
         "Highrock": {"pos": [374, 8, 2145]},
-        "Irithyll": {"pos": [-4162, 0, 1125]},
+        "Irithyll": {"pos": [-4162, 7, 1175]},
         "Kaldarra": {"pos": [-200, 12, 1890]},
         "Kaiderin": {"pos": [-3776, 12, -2309]},
-        "Kenya": {"pos": [-2132, 103, -1217]},
+        "Kenya": {"pos": [2132, 103, -1217]},
         "Kronstadt": {"pos": [2931, 9, -4351]},
         "Kazad Ankor": {"pos": [150, 0, -1070]},
+        "lava fields": {"pos": [3886, 0, -1435]},
         "Lithuathu": {"pos": [-2672, 14, -2194]},
         "Lithuathu Exchange": {"pos": [-2673, 14, -2327]},
         "Mt. Athos": {"pos": [-3095, 0, 1115]},
         "Mt. Augusta": {"pos": [2549, 8, 3073]},
+        "Nova Blyat": {"pos": [3605, 9, 1798]},
         "Owari": {"pos": [-2568, 7, 1958]},
         "Persia End Portal": {"pos": [4175, 19, 1748]},
         "Polynesia": {"pos": [-3763, 7, -3998]},
         "Primm": {"pos": [-3700, 9, -1508]},
         "Ranier": {"pos": [2361, 96, -3686]},
         "Rodos": {"pos": [4671, 8, -748]},
-        "Thyssius": {"pos": [3707, 8, 2288]},
-        "Vogelburg": {"pos": [-3500, 0, 600]},
+        "Thyssius": {"pos": [3700, 8, 2311]},
+        "Vogelburg Station (surface entrance)": {"pos": [-3500, 109, 600]},
+        "Vogelburg Station": {"pos": [-3500, 12, 705]},
         "Watertown": {"pos": [1438, 0, 1443]},
         "Qiyuan": {"pos": [1830, 114, -2863]},
-        "WeePee": {"pos": [960, 7, -1780]},
+        "WeePee": {"pos": [1012, 8, -1789]},
         "White Citadel": {"pos": [3341, 19, 3420]},
-        "Wyvernhurst": {"pos": [284, 7, 909]},
+        "Wyvernhurst": {"pos": [269, 8, 931]},
         "Zer0": {"pos": [0, 0, 0]}
     },
     "edges": [
@@ -82,13 +86,23 @@
         },
         {
             "from": "Aquila",
-            "to": "Zer0",
+            "to": "Abrya",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
                 [3900, 8, -919],
-                [1720, 12, -919],
-                [1636, 11, -836],
+                [1820, 12, -919],
+                [1736, 11, -836],
+                [1717, 11, -836]
+            ]
+        },
+        {
+            "from": "Abrya",
+            "to": "Zer0",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [1717, 11, -836],
                 [1000, 11, -836],
                 [1000, 9, 0],
                 [8, 12, -1]
@@ -98,6 +112,7 @@
 
         {
             "from": "Dargysejamistan",
+            "to": "lava fields",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
@@ -162,7 +177,10 @@
             "tracks": 1,
             "positions": [
                 [3700, 7, 2289],
-                [3648, 7, 2956],
+                [3700, 7, 2903],
+                [3648, 7, 2955],
+                [3648, 7, 2962],
+                [3648, 19, 2974],
                 [3648, 19, 2989]
             ]
         },
@@ -282,13 +300,22 @@
         },
         {
             "from": "Barcelonyaa",
-            "to": "Nether Biome",
+            "to": "Nova Blyat",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
                 [3688, 19, 2989],
-                [3688, 10, 1997],
-                [3681, 10, 1990]
+                [3688, 19, 2426],
+                [3688, 10, 2417],
+                [3688, 10, 1996],
+                [3608, 10, 1917],
+                [3608, 10, 1812],
+                [3608, 9, 1811],
+                [3608, 9, 1810],
+                [3607, 9, 1810],
+                [3607, 9, 1806],
+                [3605, 9, 1804],
+                [3605, 9, 1798]
             ]
         },
         {
@@ -520,7 +547,7 @@
                 [-3488, 96, -788],
                 [-3488, 96, -792],
                 [-3486, 96, -792],
-                [-2401, 11, -792],
+                [-3401, 11, -792],
                 [-2962, 11, -792],
                 [-2958, 15, -792],
                 [-2954, 15, -792],
@@ -532,7 +559,7 @@
 
         {
             "from": "Esme",
-            "to": "Vogelburg",
+            "to": "Vogelburg Station",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
@@ -571,7 +598,21 @@
 
 
         {
-            "from": "Vogelburg",
+            "from": "Vogelburg Station",
+            "to": "Vogelburg Station (surface entrance)",
+            "type": "tunnel",
+            "tracks": 1,
+            "positions": [
+                [-3502, 11, 703],
+                [-3502, 11, 702],
+                [-3502, 104, 609],
+                [-3502, 104, 608]
+            ]
+        },
+
+
+        {
+            "from": "Vogelburg Station",
             "to": "Mt. Athos",
             "type": "tunnel",
             "tracks": 1,
@@ -794,7 +835,7 @@
         },
         {
             "from": "Qiyuan",
-            "to": "Vogelburg",
+            "to": "Vogelburg Station",
             "type": "wip",
             "tracks": 1,
             "positions": [
