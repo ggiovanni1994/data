@@ -47,7 +47,6 @@
         "Thyssius": {"pos": [3700, 8, 2311]},
         "Vogelburg Station (surface entrance)": {"pos": [-3500, 109, 600]},
         "Vogelburg Station": {"pos": [-3500, 12, 705]},
-        "Watertown": {"pos": [1438, 0, 1443]},
         "Qiyuan": {"pos": [1830, 114, -2863]},
         "WeePee": {"pos": [1012, 8, -1789]},
         "White Citadel": {"pos": [3341, 19, 3420]},
@@ -304,21 +303,6 @@
                 [-3071, 8, 1116]
             ]
         },
-        {
-            "from": "Hayek",
-            "to": "Barcelonyaa",
-            "type": "unused",
-            "tracks": 1,
-            "comment": "coords #2+#3 are Cloud Lake Jct, MtA entry point",
-            "positions": [
-                [839, 105, 2810],
-                [1512, 105, 2810],
-                [2103, 105, 2810],
-                [2969, 85, 2810],
-                [2969, 0, 2991],
-                [3575, 12, 2989]
-            ]
-        },
 
 
         {
@@ -438,22 +422,6 @@
                 [3660, 19, 3020],
                 [3669, 19, 3028],
                 [3669, 19, 4172]
-            ]
-        },
-
-
-
-
-
-        {
-            "from": "Watertown",
-            "type": "ground",
-            "tracks": 1,
-            "comment": "y-coords 1+2 unsure",
-            "positions": [
-                [1438, 111, 1443],
-                [1512, 111, 1443],
-                [1512, 105, 2810]
             ]
         },
 
