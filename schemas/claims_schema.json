@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "claims",
+    "type": "array",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "description": "The name of the claim",
+                "type": "string"
+            },
+            "color": {
+                "description": "The color of the claim",
+                "type": "string",
+                "pattern": "#[0-9a-fA-F]{3}([0-9a-fA-F]{3})?"
+            },
+            "positions": {
+                "description": "The claim's shapes",
+                "type": "array",
+                "items": {
+                    "description": "The shape's outline polygon and holes",
+                    "type": "array",
+                    "items": {
+                        "description": "The outline's points",
+                        "type": "array",
+                        "items": {
+                            "description": "The point's coordinates",
+                            "type": "array",
+                            "length": 2,
+                            "items": {
+                                "type": "integer",
+                                "minimum": -5010,
+                                "maximum": 5120
+                            }
+                        }
+                    }
+                }
+            },
+            "source": {
+                "description": "Link to the source of the claim",
+                "anyOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "null"
+                    }
+                ]
+            }
+        },
+        "required": [
+            "name",
+            "color",
+            "positions",
+            "source"
+        ],
+        "additionalProperties": false
+    }
+}

@@ -6,3 +6,11 @@
 
 Claim positions coordinates are in `z,x` order, because Leaflet uses the `lat,long` standard.
 
+### Contributing
+After adding/editing a claim, run
+
+    ajv -s schemas/claims_schema.json -d claims.json --all-errors
+
+to check if it's valid. You can install `ajv` through `npm` using
+
+    npm install -g ajv-cli
