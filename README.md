@@ -14,3 +14,5 @@ After adding/editing a claim, run
 to check if it's valid. You can install `ajv` through `npm` using
 
     npm install -g ajv-cli
+
+[![Travis Build Status](https://travis-ci.org/dev3map/data.svg?branch=master)](https://travis-ci.org/dev3map/data)

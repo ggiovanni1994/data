@@ -1,0 +1,10 @@
+language:
+  python
+before_script:
+  - npm install -g ajv-cli
+script:
+  - ajv -s schemas/claims_schema.json -d claims.json --all-errors
+  - ajv -s <(echo "{}") -d transit.json --all-errors
+cache:
+  directories:
+    - /usr/lib/node_modules/npm/
