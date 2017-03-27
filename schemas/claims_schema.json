@@ -25,7 +25,7 @@
                         "description": "The outline's points",
                         "type": "array",
                         "items": {
-                            "description": "The point's coordinates",
+                            "description": "The point's coordinates, ordered [z, x]",
                             "type": "array",
                             "length": 2,
                             "items": {
@@ -39,14 +39,11 @@
             },
             "source": {
                 "description": "Link to the source of the claim",
-                "anyOf": [
-                    {
-                        "type": "string"
-                    },
-                    {
-                        "type": "null"
-                    }
-                ]
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "pattern": "https://www.reddit.com/.*"
             }
         },
         "required": [
