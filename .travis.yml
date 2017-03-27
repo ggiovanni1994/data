@@ -7,4 +7,4 @@ script:
   - ajv -s <(echo "{}") -d transit.json --all-errors
 cache:
   directories:
-    - /usr/lib/node_modules/npm/
+    - /home/travis/.nvm/*/lib/node_modules/
