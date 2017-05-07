@@ -14,6 +14,7 @@
         "CousCous": {"pos": [4319, 8, 2984]},
         "Dargysejamistan": {"pos": [4100, 11, -1182]},
         "Defem": {"pos": [-3489, 96, -787]},
+        "Desert Biomes Outposts": {"pos": [-2524, 7, 725]},
         "Desert Outpost #1": {"pos": [-2913, 7, 670]},
         "Esme": {"pos": [-2923, 11, -795]},
         "N Kenya Exchange": {"pos": [2120, 10, -1787]},
@@ -609,7 +610,7 @@
 
         {
             "from": "Mt. Augusta",
-            "to": "Athos",
+            "to": "Mt. Athos",
             "type": "tunnel",
             "tracks": 2,
             "positions": [
@@ -1175,7 +1176,7 @@
 
         {
             "from": "Hellspring exchange",
-            "to": "Athos",
+            "to": "Mt. Athos",
             "type": "tunnel",
             "tracks": 1,
             "positions": [
@@ -1214,7 +1215,7 @@
         },
 
         {
-            "from": "Athos",
+            "from": "Mt. Athos",
             "to": "Desert Outpost #1",
             "type": "tunnel",
             "tracks": 1,
@@ -1247,7 +1248,7 @@
         {
             "from": "Mesa Outpost #2",
             "to": "Desert Biomes Outposts",
-            "type": "tunnel",
+            "type": "planned",
             "tracks": 1,
             "positions": [
                 [-2825, 7, 539],
@@ -1622,18 +1623,6 @@
                 [1831, 20, -2936],
                 [1831, 7, -2923],
                 [1831, 9, -2890]
-            ]
-        },
-
-
-        {
-            "from": "Hayek",
-            "to": "Raffa",
-            "type": "planned",
-            "tracks": 1,
-            "positions": [
-                [773, 81, 2876],
-                [500, 80, 2876]
             ]
         },
 
